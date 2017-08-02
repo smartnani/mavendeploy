@@ -24,6 +24,14 @@
     <finalName>warpro</finalName>
   <plugins>
 <plugin>
+<groupId>org.apache.maven.scm</groupId>
+<artifactId>maven-scm-provider-gitexe</artifactId>
+<version>1.9.5</version>
+<configuration>
+<goals>install</goals>
+</configuration>
+</plugin>
+<plugin>
 <groupId>org.apache.tomcat.maven</groupId>
 <artifactId>tomcat7-maven-plugin</artifactId>
 <version>2.2</version>
